@@ -19,7 +19,6 @@
 @end
 @interface GFSImageCarouselView : UIView
 
-
 @property(nonatomic,weak)id<GFSImageCarouselDelegate> delegate;
 /**
  *  快速创建一个图片轮播器

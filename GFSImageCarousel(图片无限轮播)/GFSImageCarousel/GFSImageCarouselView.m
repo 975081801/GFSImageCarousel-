@@ -78,7 +78,7 @@
     self.carsouselView.pagingEnabled = YES;
     self.carsouselView.bounces = NO;
     // 默认选中50行
-    NSUInteger startPage = 50 * self.imageArray.count;
+    NSUInteger startPage = 100 * self.imageArray.count;
     self.currentPage = startPage;
     
     [self.carsouselView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:self.currentPage inSection:0] atScrollPosition:UICollectionViewScrollPositionLeft animated:YES];
@@ -113,7 +113,7 @@
  */
 - (void)startTimer
 {
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(nextImage) userInfo:nil repeats:YES];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(nextImage) userInfo:nil repeats:YES];
     self.timer = timer ;
     
     [[NSRunLoop mainRunLoop]addTimer:timer forMode:NSDefaultRunLoopMode];
@@ -144,7 +144,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return self.imageArray.count * 100;
+    return self.imageArray.count * 1000;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -173,7 +173,6 @@
 }
 /**
  *  滚动就会调用
- *
  */
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
