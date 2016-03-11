@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE663B2F1C92AA4200917DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B2E1C92AA4200917DF3 /* main.m */; };
+		EE663B321C92AA4200917DF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B311C92AA4200917DF3 /* AppDelegate.m */; };
+		EE663B351C92AA4200917DF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B341C92AA4200917DF3 /* ViewController.m */; };
+		EE663B381C92AA4300917DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE663B361C92AA4300917DF3 /* Main.storyboard */; };
+		EE663B3A1C92AA4300917DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE663B391C92AA4300917DF3 /* Assets.xcassets */; };
+		EE663B3D1C92AA4300917DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE663B3B1C92AA4300917DF3 /* LaunchScreen.storyboard */; };
+		EE663B481C92AA4300917DF3 /* GFSImageCarousel________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B471C92AA4300917DF3 /* GFSImageCarousel________Tests.m */; };
+		EE663B531C92AA4300917DF3 /* GFSImageCarousel________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B521C92AA4300917DF3 /* GFSImageCarousel________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE663B441C92AA4300917DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE663B221C92AA4200917DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE663B291C92AA4200917DF3;
+			remoteInfo = "GFSImageCarousel(图片无限轮播)";
+		};
+		EE663B4F1C92AA4300917DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE663B221C92AA4200917DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE663B291C92AA4200917DF3;
+			remoteInfo = "GFSImageCarousel(图片无限轮播)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE663B2A1C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GFSImageCarousel(图片无限轮播).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE663B2E1C92AA4200917DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE663B301C92AA4200917DF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE663B311C92AA4200917DF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE663B331C92AA4200917DF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE663B341C92AA4200917DF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE663B371C92AA4300917DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE663B391C92AA4300917DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE663B3C1C92AA4300917DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE663B3E1C92AA4300917DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE663B431C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFSImageCarousel(图片无限轮播)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE663B471C92AA4300917DF3 /* GFSImageCarousel________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GFSImageCarousel________Tests.m"; sourceTree = "<group>"; };
+		EE663B491C92AA4300917DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE663B4E1C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFSImageCarousel(图片无限轮播)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE663B521C92AA4300917DF3 /* GFSImageCarousel________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GFSImageCarousel________UITests.m"; sourceTree = "<group>"; };
+		EE663B541C92AA4300917DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE663B271C92AA4200917DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE663B401C92AA4300917DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE663B4B1C92AA4300917DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE663B211C92AA4200917DF3 = {
+			isa = PBXGroup;
+			children = (
+				EE663B2C1C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */,
+				EE663B461C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests */,
+				EE663B511C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests */,
+				EE663B2B1C92AA4200917DF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE663B2B1C92AA4200917DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE663B2A1C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播).app */,
+				EE663B431C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests.xctest */,
+				EE663B4E1C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE663B2C1C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */ = {
+			isa = PBXGroup;
+			children = (
+				EE663B301C92AA4200917DF3 /* AppDelegate.h */,
+				EE663B311C92AA4200917DF3 /* AppDelegate.m */,
+				EE663B331C92AA4200917DF3 /* ViewController.h */,
+				EE663B341C92AA4200917DF3 /* ViewController.m */,
+				EE663B361C92AA4300917DF3 /* Main.storyboard */,
+				EE663B391C92AA4300917DF3 /* Assets.xcassets */,
+				EE663B3B1C92AA4300917DF3 /* LaunchScreen.storyboard */,
+				EE663B3E1C92AA4300917DF3 /* Info.plist */,
+				EE663B2D1C92AA4200917DF3 /* Supporting Files */,
+			);
+			path = "GFSImageCarousel(图片无限轮播)";
+			sourceTree = "<group>";
+		};
+		EE663B2D1C92AA4200917DF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE663B2E1C92AA4200917DF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE663B461C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE663B471C92AA4300917DF3 /* GFSImageCarousel________Tests.m */,
+				EE663B491C92AA4300917DF3 /* Info.plist */,
+			);
+			path = "GFSImageCarousel(图片无限轮播)Tests";
+			sourceTree = "<group>";
+		};
+		EE663B511C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE663B521C92AA4300917DF3 /* GFSImageCarousel________UITests.m */,
+				EE663B541C92AA4300917DF3 /* Info.plist */,
+			);
+			path = "GFSImageCarousel(图片无限轮播)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE663B291C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE663B571C92AA4300917DF3 /* Build configuration list for PBXNativeTarget "GFSImageCarousel(图片无限轮播)" */;
+			buildPhases = (
+				EE663B261C92AA4200917DF3 /* Sources */,
+				EE663B271C92AA4200917DF3 /* Frameworks */,
+				EE663B281C92AA4200917DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GFSImageCarousel(图片无限轮播)";
+			productName = "GFSImageCarousel(图片无限轮播)";
+			productReference = EE663B2A1C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE663B421C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE663B5A1C92AA4300917DF3 /* Build configuration list for PBXNativeTarget "GFSImageCarousel(图片无限轮播)Tests" */;
+			buildPhases = (
+				EE663B3F1C92AA4300917DF3 /* Sources */,
+				EE663B401C92AA4300917DF3 /* Frameworks */,
+				EE663B411C92AA4300917DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE663B451C92AA4300917DF3 /* PBXTargetDependency */,
+			);
+			name = "GFSImageCarousel(图片无限轮播)Tests";
+			productName = "GFSImageCarousel(图片无限轮播)Tests";
+			productReference = EE663B431C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE663B4D1C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE663B5D1C92AA4300917DF3 /* Build configuration list for PBXNativeTarget "GFSImageCarousel(图片无限轮播)UITests" */;
+			buildPhases = (
+				EE663B4A1C92AA4300917DF3 /* Sources */,
+				EE663B4B1C92AA4300917DF3 /* Frameworks */,
+				EE663B4C1C92AA4300917DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE663B501C92AA4300917DF3 /* PBXTargetDependency */,
+			);
+			name = "GFSImageCarousel(图片无限轮播)UITests";
+			productName = "GFSImageCarousel(图片无限轮播)UITests";
+			productReference = EE663B4E1C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE663B221C92AA4200917DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GFS;
+				TargetAttributes = {
+					EE663B291C92AA4200917DF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G88GVC667B;
+					};
+					EE663B421C92AA4300917DF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G88GVC667B;
+						TestTargetID = EE663B291C92AA4200917DF3;
+					};
+					EE663B4D1C92AA4300917DF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G88GVC667B;
+						TestTargetID = EE663B291C92AA4200917DF3;
+					};
+				};
+			};
+			buildConfigurationList = EE663B251C92AA4200917DF3 /* Build configuration list for PBXProject "GFSImageCarousel(图片无限轮播)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE663B211C92AA4200917DF3;
+			productRefGroup = EE663B2B1C92AA4200917DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE663B291C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */,
+				EE663B421C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)Tests */,
+				EE663B4D1C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE663B281C92AA4200917DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE663B3D1C92AA4300917DF3 /* LaunchScreen.storyboard in Resources */,
+				EE663B3A1C92AA4300917DF3 /* Assets.xcassets in Resources */,
+				EE663B381C92AA4300917DF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE663B411C92AA4300917DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE663B4C1C92AA4300917DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE663B261C92AA4200917DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE663B351C92AA4200917DF3 /* ViewController.m in Sources */,
+				EE663B321C92AA4200917DF3 /* AppDelegate.m in Sources */,
+				EE663B2F1C92AA4200917DF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE663B3F1C92AA4300917DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE663B481C92AA4300917DF3 /* GFSImageCarousel________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE663B4A1C92AA4300917DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE663B531C92AA4300917DF3 /* GFSImageCarousel________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE663B451C92AA4300917DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE663B291C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */;
+			targetProxy = EE663B441C92AA4300917DF3 /* PBXContainerItemProxy */;
+		};
+		EE663B501C92AA4300917DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE663B291C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */;
+			targetProxy = EE663B4F1C92AA4300917DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE663B361C92AA4300917DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE663B371C92AA4300917DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE663B3B1C92AA4300917DF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE663B3C1C92AA4300917DF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE663B551C92AA4300917DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE663B561C92AA4300917DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE663B581C92AA4300917DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GFSImageCarousel(图片无限轮播)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSImageCarousel--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE663B591C92AA4300917DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GFSImageCarousel(图片无限轮播)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSImageCarousel--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE663B5B1C92AA4300917DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GFSImageCarousel(图片无限轮播)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSImageCarousel--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFSImageCarousel(图片无限轮播).app/GFSImageCarousel(图片无限轮播)";
+			};
+			name = Debug;
+		};
+		EE663B5C1C92AA4300917DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GFSImageCarousel(图片无限轮播)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSImageCarousel--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFSImageCarousel(图片无限轮播).app/GFSImageCarousel(图片无限轮播)";
+			};
+			name = Release;
+		};
+		EE663B5E1C92AA4300917DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GFSImageCarousel(图片无限轮播)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSImageCarousel--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GFSImageCarousel(图片无限轮播)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE663B5F1C92AA4300917DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GFSImageCarousel(图片无限轮播)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.GFSImageCarousel--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GFSImageCarousel(图片无限轮播)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE663B251C92AA4200917DF3 /* Build configuration list for PBXProject "GFSImageCarousel(图片无限轮播)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE663B551C92AA4300917DF3 /* Debug */,
+				EE663B561C92AA4300917DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE663B571C92AA4300917DF3 /* Build configuration list for PBXNativeTarget "GFSImageCarousel(图片无限轮播)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE663B581C92AA4300917DF3 /* Debug */,
+				EE663B591C92AA4300917DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE663B5A1C92AA4300917DF3 /* Build configuration list for PBXNativeTarget "GFSImageCarousel(图片无限轮播)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE663B5B1C92AA4300917DF3 /* Debug */,
+				EE663B5C1C92AA4300917DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE663B5D1C92AA4300917DF3 /* Build configuration list for PBXNativeTarget "GFSImageCarousel(图片无限轮播)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE663B5E1C92AA4300917DF3 /* Debug */,
+				EE663B5F1C92AA4300917DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE663B221C92AA4200917DF3 /* Project object */;
+}
