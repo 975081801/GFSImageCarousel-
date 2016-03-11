@@ -179,7 +179,7 @@
 {
     // 偏移量 计算第几页
     int page = scrollView.contentOffset.x / self.frame.size.width + 0.5;
-    
+    self.currentPage = page;
     self.pageControl.currentPage = page % self.imageArray.count;
 }
 @end
