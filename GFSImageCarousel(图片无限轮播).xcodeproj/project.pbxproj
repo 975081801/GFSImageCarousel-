@@ -15,6 +15,14 @@
 		EE663B3D1C92AA4300917DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE663B3B1C92AA4300917DF3 /* LaunchScreen.storyboard */; };
 		EE663B481C92AA4300917DF3 /* GFSImageCarousel________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B471C92AA4300917DF3 /* GFSImageCarousel________Tests.m */; };
 		EE663B531C92AA4300917DF3 /* GFSImageCarousel________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B521C92AA4300917DF3 /* GFSImageCarousel________UITests.m */; };
+		EE663B631C92AAB300917DF3 /* GFSImageCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B621C92AAB300917DF3 /* GFSImageCarouselView.m */; };
+		EE663B691C92AB0A00917DF3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE663B641C92AB0A00917DF3 /* 1.jpg */; };
+		EE663B6A1C92AB0A00917DF3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE663B651C92AB0A00917DF3 /* 2.jpg */; };
+		EE663B6B1C92AB0A00917DF3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE663B661C92AB0A00917DF3 /* 3.jpg */; };
+		EE663B6C1C92AB0A00917DF3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE663B671C92AB0A00917DF3 /* 4.jpg */; };
+		EE663B6D1C92AB0A00917DF3 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE663B681C92AB0A00917DF3 /* 5.jpg */; };
+		EE663B711C92B41F00917DF3 /* GFSCarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE663B6F1C92B41F00917DF3 /* GFSCarouselCell.m */; };
+		EE663B721C92B41F00917DF3 /* GFSCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE663B701C92B41F00917DF3 /* GFSCarouselCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		EE663B4E1C92AA4300917DF3 /* GFSImageCarousel(图片无限轮播)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFSImageCarousel(图片无限轮播)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE663B521C92AA4300917DF3 /* GFSImageCarousel________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GFSImageCarousel________UITests.m"; sourceTree = "<group>"; };
 		EE663B541C92AA4300917DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE663B611C92AAB300917DF3 /* GFSImageCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSImageCarouselView.h; sourceTree = "<group>"; };
+		EE663B621C92AAB300917DF3 /* GFSImageCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSImageCarouselView.m; sourceTree = "<group>"; };
+		EE663B641C92AB0A00917DF3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EE663B651C92AB0A00917DF3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		EE663B661C92AB0A00917DF3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		EE663B671C92AB0A00917DF3 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		EE663B681C92AB0A00917DF3 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		EE663B6E1C92B41F00917DF3 /* GFSCarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSCarouselCell.h; sourceTree = "<group>"; };
+		EE663B6F1C92B41F00917DF3 /* GFSCarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSCarouselCell.m; sourceTree = "<group>"; };
+		EE663B701C92B41F00917DF3 /* GFSCarouselCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFSCarouselCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +119,9 @@
 		EE663B2C1C92AA4200917DF3 /* GFSImageCarousel(图片无限轮播) */ = {
 			isa = PBXGroup;
 			children = (
-				EE663B301C92AA4200917DF3 /* AppDelegate.h */,
-				EE663B311C92AA4200917DF3 /* AppDelegate.m */,
+				EE663B601C92AA7400917DF3 /* GFSImageCarousel */,
 				EE663B331C92AA4200917DF3 /* ViewController.h */,
 				EE663B341C92AA4200917DF3 /* ViewController.m */,
-				EE663B361C92AA4300917DF3 /* Main.storyboard */,
-				EE663B391C92AA4300917DF3 /* Assets.xcassets */,
-				EE663B3B1C92AA4300917DF3 /* LaunchScreen.storyboard */,
-				EE663B3E1C92AA4300917DF3 /* Info.plist */,
 				EE663B2D1C92AA4200917DF3 /* Supporting Files */,
 			);
 			path = "GFSImageCarousel(图片无限轮播)";
@@ -117,6 +130,17 @@
 		EE663B2D1C92AA4200917DF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE663B361C92AA4300917DF3 /* Main.storyboard */,
+				EE663B3E1C92AA4300917DF3 /* Info.plist */,
+				EE663B3B1C92AA4300917DF3 /* LaunchScreen.storyboard */,
+				EE663B301C92AA4200917DF3 /* AppDelegate.h */,
+				EE663B311C92AA4200917DF3 /* AppDelegate.m */,
+				EE663B391C92AA4300917DF3 /* Assets.xcassets */,
+				EE663B641C92AB0A00917DF3 /* 1.jpg */,
+				EE663B651C92AB0A00917DF3 /* 2.jpg */,
+				EE663B661C92AB0A00917DF3 /* 3.jpg */,
+				EE663B671C92AB0A00917DF3 /* 4.jpg */,
+				EE663B681C92AB0A00917DF3 /* 5.jpg */,
 				EE663B2E1C92AA4200917DF3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +162,18 @@
 				EE663B541C92AA4300917DF3 /* Info.plist */,
 			);
 			path = "GFSImageCarousel(图片无限轮播)UITests";
+			sourceTree = "<group>";
+		};
+		EE663B601C92AA7400917DF3 /* GFSImageCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				EE663B611C92AAB300917DF3 /* GFSImageCarouselView.h */,
+				EE663B621C92AAB300917DF3 /* GFSImageCarouselView.m */,
+				EE663B6E1C92B41F00917DF3 /* GFSCarouselCell.h */,
+				EE663B6F1C92B41F00917DF3 /* GFSCarouselCell.m */,
+				EE663B701C92B41F00917DF3 /* GFSCarouselCell.xib */,
+			);
+			path = GFSImageCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE663B3D1C92AA4300917DF3 /* LaunchScreen.storyboard in Resources */,
+				EE663B721C92B41F00917DF3 /* GFSCarouselCell.xib in Resources */,
 				EE663B3A1C92AA4300917DF3 /* Assets.xcassets in Resources */,
+				EE663B691C92AB0A00917DF3 /* 1.jpg in Resources */,
+				EE663B6D1C92AB0A00917DF3 /* 5.jpg in Resources */,
+				EE663B6C1C92AB0A00917DF3 /* 4.jpg in Resources */,
+				EE663B6A1C92AB0A00917DF3 /* 2.jpg in Resources */,
 				EE663B381C92AA4300917DF3 /* Main.storyboard in Resources */,
+				EE663B6B1C92AB0A00917DF3 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +315,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE663B711C92B41F00917DF3 /* GFSCarouselCell.m in Sources */,
 				EE663B351C92AA4200917DF3 /* ViewController.m in Sources */,
+				EE663B631C92AAB300917DF3 /* GFSImageCarouselView.m in Sources */,
 				EE663B321C92AA4200917DF3 /* AppDelegate.m in Sources */,
 				EE663B2F1C92AA4200917DF3 /* main.m in Sources */,
 			);
